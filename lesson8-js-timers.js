@@ -10,6 +10,7 @@ function gonow() {
 
   /* setTimeout EXECUTES A SET FUNCTION AFTER THE SET AMOUNT OF TIME, LIKE A COUNTDOWN CLOCK.
   THE TIMER STARTS WHEN VARIABLE IS ASSIGNED TO THE METHOD*/
+  let timedFunction = setTimeout(sendMsg, 5000);
   function showInterval() {
     console.log("Three seconds have gone by...");
   }
